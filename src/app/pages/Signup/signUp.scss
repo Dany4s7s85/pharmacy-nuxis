@@ -1,0 +1,40 @@
+.signup-container{
+    overflow: auto;
+    height: calc(100vh - 430px);
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.buisness-signup{
+    background: #fff;
+    box-shadow: 0 1px 15px 2px rgba(132, 163, 220, 0.26);
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+.signup-box{
+    width: 80%;
+    margin-left: auto;
+}
+@media(max-width:900px){
+    .signup-box{
+       
+        margin-right: auto;
+    }
+}
+@media(max-width: 768px){
+    :root {
+    .buisness-signup{
+        margin-right: 50px;
+    }
+}
+}
+
+@media(max-width: 767px){
+    :root {
+    .buisness-signup{
+        margin-right: 0;
+    }
+}
+}

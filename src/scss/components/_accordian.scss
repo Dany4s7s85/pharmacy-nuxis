@@ -1,0 +1,89 @@
+@import "../variables";
+
+.accordian-primary-new.MuiPaper-root.MuiAccordion-root {
+  margin-bottom: 15px;
+  border-radius: 8px !important;
+  border: 1px solid #e7e9ed !important;
+
+  .MuiAccordionSummary-root {
+    background: #f6f8fa;
+    border-radius: 8px;
+
+    .MuiTypography-root {
+      color: $ebony-color;
+      font-weight: 500 !important;
+      font-size: 14px !important;
+    }
+  }
+
+  .MuiAccordionSummary-expandIconWrapper {
+    color: #000000;
+  }
+}
+
+.accordian {
+  margin-bottom: 15px;
+  border-radius: 8px !important;
+}
+
+.accordian.accordian-primary {
+  .MuiAccordionSummary-root {
+    background-color: $primary;
+
+    .MuiTypography-root {
+      color: $textColor;
+    }
+  }
+
+  .MuiAccordionSummary-expandIconWrapper {
+    color: $textColor;
+  }
+}
+
+.accordion-box {
+  width: 300px;
+}
+
+.accordion-box-full {
+  width: 600px;
+}
+
+@media (max-width: 650px) {
+  .accordion-box {
+    width: 250px;
+  }
+
+  .accordion-box-full {
+    width: 500px;
+  }
+}
+
+@media (max-width: 560px) {
+  .accordion-box {
+    width: 200px;
+  }
+
+  .accordion-box-full {
+    width: 400px;
+  }
+}
+
+@media (max-width: 470px) {
+  .accordion-box {
+    width: 150px;
+  }
+
+  .accordion-box-full {
+    width: 300px;
+  }
+}
+
+@media (max-width: 380px) {
+  .accordion-box {
+    width: 120px;
+  }
+
+  .accordion-box-full {
+    width: 240px;
+  }
+}

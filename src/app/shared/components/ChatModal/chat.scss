@@ -1,0 +1,123 @@
+.chatDrawerContainer.MuiDrawer-root .MuiDrawer-paper {
+  background: #ffffff;
+  border: 1px solid #e7e8ea;
+  box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.05);
+  border-radius: 10px 0px 0px 0px;
+  width: 400px;
+}
+
+.chat-messages-spinner-container {
+  display: flex;
+  align-items: center;
+  flex: 1 1;
+  justify-content: center;
+}
+
+.chatbox {
+  width: 100% !important;
+  height: 86vh;
+  display: flex;
+  flex-flow: column;
+  border-radius: 10px 10px 0 0;
+  transition: 0.1s ease-out;
+
+  .chat-messages {
+    padding: 0 10px;
+    overflow: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    flex: 1;
+
+    .message-box-holder {
+      width: 100%;
+      margin: 0 0 15px;
+      display: flex;
+      flex-flow: column;
+      align-items: flex-end;
+
+      .message-box {
+        max-width: 270px;
+        overflow-wrap: break-word;
+        overflow-x: hidden;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 18px;
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+        background: #235D5E;
+        padding: 6px 10px;
+        color: white;
+        font-size: 14px;
+      }
+
+      .message-partner {
+        max-width: 270px;
+        overflow-wrap: break-word;
+        overflow-x: hidden;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 18px;
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+        align-self: flex-start;
+        background: #cad0d5;
+        color: black;
+        width: fit-content;
+      }
+    }
+  }
+
+  .chatbox-bottom {
+    .chat-input-holder {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+
+      .chat-input {
+        resize: none;
+        padding: 7px 65px 7px 10px;
+        height: 36px;
+        font-size: 14px;
+        color: black;
+        flex: 1 1;
+        border: none;
+        background: #ebeef3;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        border-radius: 30px;
+      }
+
+      .chat-input:focus,
+      .message-send:focus {
+        outline: none;
+      }
+
+      .message-send::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+      }
+
+      .chat-btn-cont {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 15px;
+        border-top: 1px solid #dee2e6;
+        border-bottom: 1px solid #dee2e6;
+      }
+
+      .chat-res-txt {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+        padding-bottom: 5px;
+        color: #333;
+        font-size: 12px;
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .chatDrawerContainer.MuiDrawer-root .MuiDrawer-paper{
+    width: 300px;
+  }
+}

@@ -1,0 +1,135 @@
+[
+  {
+    "route": "/pharmacies",
+    "description": "Can View the pharmacies page in side nav",
+    "can": "/pharmacies.nav",
+    "parent": ["$"]
+  },
+  {
+    "route": "/pharmacies/addPharmacy",
+    "description": "Can add new Pharmacy for business",
+    "can": "pharmacies.addPharmacy",
+    "parent": ["pharmacies"]
+  },
+
+  {
+    "route": "/pharmacies/pharmacyDetail",
+    "description": "Can view pharmacy detail",
+    "can": "pharmacies.pharmacyDetail",
+    "parent": ["pharmacies"]
+  },
+
+
+  {
+    "route": "/members",
+    "description": "Can View the pharmacies page in side nav",
+    "can": "members.nav",
+    "parent": ["$"]
+  },
+  {
+    "route": "/members/addMember",
+    "description": "Can add new Member for business",
+    "can": "members.addMember",
+    "parent": ["members"]
+  },
+
+  {
+    "route": "/members/memberDetail",
+    "description": "Can view member detail",
+    "can": "members.memberDetail",
+    "parent": ["members"]
+  },
+
+  {
+    "route": "/members/updateMember",
+    "description": "Can update the member",
+    "can": "members.updateMember",
+    "parent": ["members"]
+  },
+
+  {
+    "route": "/orders",
+    "description": "Can View the orders page in side nav",
+    "can": "/orders.nav",
+    "parent": ["$"]
+  },
+  {
+    "route": "/subOrder",
+    "description": "Can see order detail",
+    "can": "subOrder.subOrderDetail",
+    "parent": ["subOrder"]
+  },
+
+  {
+    "route": "/subOrder/dropdown",
+    "description": "Can  update order",
+    "can": "subOrder.dropdown",
+    "parent": ["subOrder"]
+  },
+
+  {
+    "route": "/purchaseOrders",
+    "description": "Can see the purchase orders",
+    "can": "purchaseOrders.nav",
+    "parent": ["$"]
+  },
+
+  {
+    "route": "/pharmacy_profile",
+    "description": "Can see the pharmacy profile ",
+    "can": "pharmacy_profile.nav",
+    "parent": ["$"]
+  },
+
+
+  {
+    "route": "/pharmacy_profile/updateProfile",
+    "description": "Can update the pharmacy profile ",
+    "can": "pharmacy_profile.updateProfile",
+    "parent": ["pharmacy_profile"]
+  },
+
+  {
+    "route": "/profile",
+    "description": "Can see the profile",
+    "can": "profile.nav",
+    "parent": ["$"]
+  },
+
+  {
+    "route": "/dashboard",
+    "description": "Can see the dashboard",
+    "can": "dashboard.nav",
+    "parent": ["$"]
+  },
+  {
+    "route": "/pharmacy/buying",
+    "description": "Can buy for pharmacy",
+    "can": "pharmacy.purchasing",
+    "parent": ["pharmacy"]
+  },
+
+  {
+    "route": "/products",
+    "description": "Can view products in side nav",
+    "can": "products.nav",
+    "parent": ["$"]
+  },
+
+
+  {
+    "route": "/products/addProduct",
+    "description": "Can add products ",
+    "can": "products.addProduct",
+    "parent": ["products"]
+  },
+
+  {
+    "route": "/products/editProduct",
+    "description": "Can edit products ",
+    "can": "products.editProduct",
+    "parent": ["products"]
+  }
+
+
+]

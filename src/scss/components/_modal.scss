@@ -1,0 +1,48 @@
+@import "../variables";
+
+.modal-mui {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $modalColorBg;
+  border-radius: 20px;
+  outline: 0;
+
+  .modal-header-mui {
+    #modal-modal-title {
+      padding: 15px;
+      color: #000;
+    }
+
+    .modal-clear-btn {
+      position: absolute;
+      right: 8px;
+      top: 8px;
+    }
+  }
+
+  .modal-footer-mui {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    background-color: #fff;
+    border-top: 1px solid #c7c7c7;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 20px 20px;
+  }
+
+  .modal-content-mui {
+    padding: 25px;
+  }
+}
+
+.MuiDialog-container {
+  .MuiDialog-paper {
+    border-radius: 20px;
+  }
+
+}

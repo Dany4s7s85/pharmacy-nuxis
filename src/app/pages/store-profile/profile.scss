@@ -1,0 +1,99 @@
+@import "../../../scss/variables";
+
+.edit-image {
+  background-color: #fff;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  border-radius: 50%;
+  bottom: 10px;
+  right: 5px;
+  z-index: 2;
+
+  &:hover {
+    background-color: #fff;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.profile-heading {
+  color: $ebony-color;
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 12px;
+}
+
+.profile-background {
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 200px;
+  background-image: url("../../assets/images/profile-background.png");
+  width: 100%;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.profile-subheading {
+  padding-left: 11px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #585d69;
+}
+
+.profile-nav-text {
+  font-size: 12px;
+  font-weight: 500;
+  color: #101828;
+}
+
+.profile-card.MuiCard-root {
+  border: 1px solid #e7e8ea;
+  border-radius: 20px;
+}
+
+.card-heading {
+  padding: 0px 16px !important;
+  margin-top: 8px;
+
+  .MuiCardHeader-title {
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    color: #101828 !important;
+  }
+}
+
+.profile-text-heading {
+  font-weight: 500;
+  font-size: 14px;
+  color: #585d69;
+}
+
+.profile-text-ans {
+  font-weight: 500;
+  font-size: 16px;
+  color: #101828;
+}
+
+.profileAvatar {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+  .profileAvatar {
+    width: 90px;
+    height: 90px;
+  }
+
+  .profile-heading {
+    font-size: 18px;
+  }
+
+  .profile-subheading {
+    font-size: 12px;
+  }
+}

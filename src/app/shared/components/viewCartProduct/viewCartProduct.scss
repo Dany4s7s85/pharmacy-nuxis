@@ -1,0 +1,58 @@
+.cart-text-product {
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  color: #101828;
+}
+
+.cart-price-product {
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  color: #16151a;
+}
+
+.summary-card.MuiCard-root {
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0px 84px 214px -80px rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
+}
+
+.summary-heading {
+  font-style: normal !important;
+  font-weight: 500 !important;
+  color: #101828;
+}
+
+.summary-cal {
+  font-weight: 400 !important;
+  color: #101828;
+  font-style: normal !important;
+}
+
+.text-ellipses-product {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 170px;
+}
+
+.cusProductCartName {
+  background: #f3f5f7;
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px;
+
+  p {
+    font-size: 10px;
+    font-weight: 500;
+    font-family: cursive !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .text-ellipses-product {
+    width: 70px;
+  }
+}

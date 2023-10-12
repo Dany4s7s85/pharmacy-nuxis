@@ -1,0 +1,24 @@
+.card-field {
+    font-size: 14px !important;
+    color: black;
+}
+
+.card-table {
+    display: none;
+    margin-top: 10px;
+}
+
+.table-card {
+    display: block;
+    margin-top: 10px;
+}
+
+@media (max-width: 750px) {
+    .card-table {
+        display: block;
+    }
+
+    .table-card {
+        display: none;
+    }
+}

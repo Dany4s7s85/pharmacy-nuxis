@@ -1,0 +1,12 @@
+.addPharmacy-container {
+    overflow: auto;
+    height: calc(100vh - 430px);
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pac-container {
+    z-index: 9999;
+}

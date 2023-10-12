@@ -1,0 +1,145 @@
+@import "../../../scss/variables";
+
+
+.label-color {
+  color: $labelColor;
+}
+
+.prod-ing-info {
+  &::after {
+    content: ",";
+  }
+
+  &:last-child {
+    &::after {
+      content: "";
+    }
+  }
+}
+
+.new-product-detail.MuiCard-root {
+  background: #f6f8fa;
+  border-radius: 20px;
+}
+
+.detail-heading {
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  color: #282f3e;
+  white-space: nowrap;
+}
+
+.detail-heading-ans {
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  color: #101828;
+}
+
+.ing-heading {
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 30px !important;
+  color: #101828;
+  margin-bottom: 10px !important;
+}
+
+.ing-ans {
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  color: #404653;
+}
+
+.prod-detail-ans {
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  color: #404653;
+}
+
+.faq-detail {
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  color: #404653;
+}
+
+.channel-Halfdescription {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.channel-Fulldescription {
+  font-weight: 400;
+  font-size: 18px;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical;
+}
+
+.channel-showMore {
+  background-color: transparent;
+  color: #f04438 !important;
+  font-weight: 400;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+.MuiTextField-root.detail-counter {
+  width: 120px;
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+
+  .MuiInputBase-root {
+    .MuiButtonBase-root {
+      padding: 0;
+      color: $primary;
+    }
+
+    #outlined-basic {
+      height: 3px;
+      text-align: center;
+    }
+
+    .MuiOutlinedInput-notchedOutline {
+      border: none;
+    }
+  }
+}
+
+.membersSelectDetail {
+  width: 100%;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 8px !important;
+  margin-bottom: 10px;
+
+  .MuiSelect-icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    padding-right: 24px;
+    background-image: url("../../../app/assets/images/arrowDown.svg");
+  }
+}
+
+@media(max-width:600px) {
+  .detail-heading {
+    font-size: 14px !important;
+  }
+
+  .detail-heading-ans {
+    font-size: 14px !important;
+  }
+
+  .ing-heading {
+    font-size: 20px !important;
+  }
+
+  .ing-ans {
+    font-size: 12px !important;
+  }
+
+}

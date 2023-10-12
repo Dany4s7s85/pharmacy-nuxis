@@ -1,0 +1,263 @@
+[
+
+  {
+    "bk_route": "/admin/dashboard",
+    "fe_route": "/dashboard",
+    "description": "Can View the dashboard in side nav",
+    "bk_can": "admin.dashboard",
+    "fe_can" : "dashboard.nav",
+    "bk_parent": [
+      "admin"
+    ],
+    "fe_parent": [
+      "$"
+    ]
+  },
+
+  {
+    "bk_route": "/admin/reports",
+    "fe_route": "/reports",
+    "description": "Can View the reports in side nav",
+    "bk_can": "admin.reports",
+    "fe_can" : "reports.nav",
+    "bk_parent": [
+      "admin"
+    ],
+    "fe_parent": [
+      "$"
+    ]
+  },
+
+
+
+
+  {
+    "bk_route": "/admin/companies",
+    "fe_route": "/companies",
+    "description": "Can View the companies in side nav",
+    "bk_can": "admin.companies",
+    "fe_can" : "companies.nav",
+    "bk_parent": [
+      "admin"
+    ],
+    "fe_parent": [
+      "$"
+    ]
+  },
+  {
+    "bk_route": "/admin/companies/updateStatus",
+    "fe_route": "/companies/updateStatus",
+    "description": "Can Update the Company Status",
+    "fe_can" : "companies.updateStatus",
+    "bk_can": "admin.companies.updateStatus",
+    "bk_parent": [
+      "admin"
+    ],
+    "fe_parent": [
+      "companies"
+    ]
+  },
+  {
+    "bk_route": "/admin/companies/invite",
+    "fe_route": "/companies/invite",
+    "description": "Can Invite Company for Signup",
+    "bk_can": "admin.companies.invite",
+    "fe_can" : "companies.invite",
+    "bk_parent": [
+      "admin"
+    ],
+    "fe_parent": [
+      "companies"
+    ]
+  },
+  {
+    "bk_route": "/admin/companies/:company_id/deleteCompany",
+    "fe_route": "/companies/deleteCompany",
+    "description": "Can delete the company",
+    "bk_can": "admin.companies.deleteCompany",
+    "fe_can" : "companies.deleteCompany",
+    "bk_parent": [
+      "admin"
+    ],
+    "fe_parent": [
+      "companies"
+    ]
+  },
+  {
+    "bk_route": "/admin/companies/:company_id/updateCompanyInfo",
+    "fe_route":"/companies/updateCompanyInfo",
+    "description": "Can Update the Company Info",
+    "bk_can": "admin.companies.updateCompanyInfo",
+    "fe_can" : "companies.updateCompanyInfo",
+    "bk_parent": [
+      "admin"
+    ],
+    "fe_parent": [
+      "companies"
+    ]
+  },
+  {
+    "bk_route": "/admin/companies/company/:company_id/",
+    "fe_route":"/companies/company",
+    "description": "Can View the company details",
+    "can": "admin.companies.company",
+    "bk_can": "admin.companies.company",
+    "fe_can" : "companies.company",
+    "bk_parent": [
+      "admin"
+    ],
+    "fe_parent": [
+      "companies"
+    ]
+  },
+
+
+  {
+    "bk_route": "/auth/user/profile",
+    "fe_route":"/profile",
+    "description": "Can Update Own Profile",
+    "bk_can": "auth.user.updateMe",
+    "fe_can" : "profile.nav",
+    "bk_parent": [
+      "auth"
+    ],
+    "fe_parent": [
+      "$"
+    ]
+  },
+  {
+    "bk_route": "/companies/company/:id/users",
+    "fe_route":"/company-users",
+    "description": "Can view users of own company",
+    "bk_can": "companies.company.users",
+    "fe_can" : "company-users.nav",
+    "bk_parent": [
+      "companies"
+    ],
+    "fe_parent": [
+      "$"
+    ]
+  },
+  {
+    "bk_route": "/companies/company/updateUserStatus",
+    "fe_route":"/company-users/updateUserStatus",
+    "description": "Can Update company userStatus",
+    "can": "companies.company.updateUserStatus",
+    "bk_can": "companies.company.updateUserStatus",
+    "fe_can" : "company-users.updateUserStatus",
+    "bk_parent": [
+      "companies"
+    ],
+    "fe_parent": [
+      "company-users"
+    ]
+  },
+  {
+    "bk_route": "/companies/company/deleteUser",
+    "fe_route":"/company-users/deleteUser",
+    "description": "Can Delete Company User",
+    "bk_can": "companies.company.deleteUser",
+    "fe_can" : "company-users.deleteUser",
+    "bk_parent": [
+      "companies"
+    ],
+    "fe_parent": [
+      "company-users"
+    ]
+  },
+  {
+    "bk_route": "/companies/company/inviteUser",
+    "fe_route":"/company-users/inviteUser",
+    "description": "Can invite User for Company",
+    "bk_can": "companies.company.inviteUser",
+    "fe_can" : "company-users.inviteUser",
+    "bk_parent": [
+      "companies"
+    ],
+    "fe_parent": [
+      "company-users"
+    ]
+  },
+
+  {
+    "bk_route": "/companies/company/:companyId/getAllDepartments",
+    "fe_route":"/departments",
+    "description": "Can view company departments",
+    "bk_can": "companies.company.getAllDepartments",
+    "fe_can" : "departments.nav",
+    "bk_parent": [
+      "companies"
+    ],
+    "fe_parent": [
+      "$"
+    ]
+  },
+
+  {
+    "bk_route": "/companies/company/createDepartment",
+    "fe_route":"/departments/create",
+    "description": "Can create department for own company",
+    "bk_can": "companies.company.getAllDepartments",
+    "fe_can" : "departments.create",
+    "bk_parent": [
+      "companies"
+    ],
+    "fe_parent": [
+      "departments"
+    ]
+  },
+
+  {
+    "bk_route": "/companies/company/updateDepartment",
+    "fe_route":"/departments/updateDepartment",
+    "description": "Can update company department",
+    "bk_can": "companies.company.updateDepartment",
+    "fe_can" : "departments.updateDepartment",
+    "bk_parent": [
+      "companies"
+    ],
+    "fe_parent": [
+      "departments"
+    ]
+  },
+  {
+    "bk_route": "/companies/company/:companyId/getDepartment/:id",
+    "fe_route":"/departments/details",
+    "description": "Can view company department",
+    "bk_can": "companies.company.getDepartment",
+    "fe_can" : "departments.details",
+    "bk_parent": [
+      "companies"
+    ],
+    "fe_parent": [
+      "departments"
+    ]
+  },
+
+  {
+    "bk_route": "/companies/company/deleteDepartment/:departmentId",
+    "fe_route":"/departments/delete",
+    "description": "Can delete company department",
+    "bk_can": "companies.company.deleteDepartment",
+    "fe_can" : "departments.delete",
+    "bk_parent": [
+      "companies"
+    ],
+    "fe_parent": [
+      "departments"
+    ]
+  },
+  {
+    "bk_route": "/companies/company/:companyId/updateCompanyBasicInfoSelf",
+    "fe_route":"/company/updateCompanyBasicInfoSelf",
+    "description": "Can update own company",
+    "bk_can": "companies.company.updateCompanyBasicInfoSelf",
+    "fe_can" : "company.updateCompanyBasicInfoSelf",
+    "bk_parent": [
+      "companies"
+    ],
+    "fe_parent": [
+      "$"
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+@import "../../../../scss/variables";
+
+// .pagination{
+//   .MuiButtonBase-root-MuiPaginationItem-root.Mui-selected{
+//     /* background-color: rgba(0, 0, 0, 0.08); */
+//     background: #F4F7F7;
+//     border: 1px solid #F4F7F7;
+//     border-radius: 8px;
+//     font-weight: 500;
+//     font-size: 14px;
+//     color: #235D5E;
+//   }
+// }
+.custom-pagination-item-selected {
+  .MuiButtonBase-root.MuiPaginationItem-root.Mui-selected {
+    background: $alice;
+    border: 1px solid $alice;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    color: $primary;
+  }
+  li {
+    &:last-child {
+      .MuiPaginationItem-previousNext {
+        background-color: $primary;
+        border-radius: 10px;
+        color: #ffff;
+      }
+    }
+  }
+}

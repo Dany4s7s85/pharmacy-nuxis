@@ -1,0 +1,42 @@
+.chat-header {
+  width: 100% !important;
+  margin-top: 0px !important;
+  margin-left: 0px !important;
+}
+
+.chat-alpha {
+  background: #235d5e;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  height: 40px;
+  display: flex;
+  cursor: pointer;
+}
+
+.inner-alphabet {
+  text-transform: capitalize;
+  margin: auto !important;
+  color: white;
+}
+
+.text-chat {
+  font-weight: 600 !important;
+  height: 75vh;
+  align-items: center;
+  width: 100%;
+  justify-content: center !important;
+  display: flex;
+}
+
+.chatTitleSeparator {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 420px) {
+  .chat-alpha {
+    width: 35px;
+    height: 35px;
+  }
+}

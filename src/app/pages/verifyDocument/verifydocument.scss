@@ -1,0 +1,44 @@
+.image-upload-container{
+  border: 2px dashed #7366ff;
+  height: 109px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7366ff;
+  font-size: 16px;
+  position: relative;
+}
+
+
+.image-preview{
+  background: #ffffff;
+  z-index: 1;
+
+  img{
+    width: 187px;
+    height: 100px;
+  }
+}
+.MuiIconButton-root.delete-picture{
+  position: absolute;
+  top: 0px;
+  left: 110px;
+  color: red;
+}
+@media(max-width:910px){
+  .MuiIconButton-root.delete-picture{
+    position: absolute;
+    top: 0px;
+    left: 105px;
+    color: red;
+  }
+}
+@media(max-width:600px){
+  .MuiIconButton-root.delete-picture{
+    position: absolute;
+    top: 0px;
+    left: 85px;
+    color: red;
+  }
+}

@@ -1,0 +1,62 @@
+@import "../variables";
+
+.MuiCard-root {
+  padding: 10px;
+
+  @include themify($themes) {
+    background-color: themed("barBg");
+    color: themed("txtColor");
+  }
+}
+
+.MuiPaper-root-MuiDialog-paper.MuiPaper-root {
+  height: 100%;
+  padding: 0;
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 20px !important;
+
+  .admin-card-header {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .MuiCardContent-root {
+    padding: 0;
+  }
+}
+
+.admin-card {
+  padding: 10px;
+  height: calc(100vh - 112px);
+
+  .admin-card-header {
+    position: sticky;
+    top: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+
+    .MuiTypography-root {
+      padding-top: 10px;
+      padding-left: 15px;
+      padding-bottom: 10px;
+    }
+  }
+
+  .admin-card-content {
+    height: calc(100vh - 280px);
+    overflow: auto;
+  }
+
+  .admin-card-actions {
+    justify-content: flex-end;
+  }
+}
+
+.upload-image-card.MuiCard-root {
+  background: #ffffff;
+  border: 1px dashed #eaecf0;
+  border-radius: 8px;
+}

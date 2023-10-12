@@ -1,0 +1,143 @@
+:root {
+  .nuxus-bg {
+    background-image: url("../../../assets/images/nuxus-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+    background-attachment: fixed;
+    height: 100%;
+  }
+}
+
+.logoContainer {
+  display: flex;
+  margin-top: 24px;
+
+  .logoText {
+    margin-left: 7px;
+    font-weight: 700;
+    font-size: 25.7758px;
+    color: #325c5d;
+  }
+}
+
+.logoContainerSignUp {
+  display: flex;
+  margin-top: 24px;
+  width: 80%;
+  margin-left: auto;
+
+  .logoText {
+    margin-left: 7px;
+    font-weight: 700;
+    font-size: 25.7758px;
+    color: #325c5d;
+  }
+}
+
+.text-auth {
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  line-height: 42px;
+  max-width: 550px;
+}
+
+.signUpcontainer {
+  background: #fff;
+  box-shadow: 0 1px 15px 2px rgba(132, 163, 220, 0.26);
+  border-radius: 10px;
+  padding: 30px 10px;
+  max-width: 450px;
+}
+
+.login-container {
+  align-items: baseline;
+  height: calc(100% - 130px);
+}
+
+.login-image {
+  width: 70%;
+}
+
+.main {
+  width: auto;
+  height: auto;
+  max-height: 620px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.backgroundContainerImg {
+  background-image: url("../../../assets/images/signInbackgroundIcon.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+// .cardFirstImage {
+//   background-image: url("../../../assets/images//cardFirstImage.svg");
+//   background-repeat: no-repeat;
+//   background-size: contain;
+//   height: 100%;
+//   width: 100%;
+// }
+
+// .cardSecondImage {
+//   background-image: url("../../../assets/images//cardSecondImage.svg");
+//   background-repeat: no-repeat;
+//   background-size: contain;
+//   height: 100%;
+//   width: 100%;
+// }
+
+// .cardThirdImage {
+//   background-image: url("../../../assets/images//cardThirdImage.svg");
+//   background-repeat: no-repeat;
+//   background-size: contain;
+//   height: 100%;
+//   width: 100%;
+// }
+
+@media (max-width: 900px) {
+  :root {
+    .signUpcontainer {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .main {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    .nuxus-bg {
+      background-image: none;
+
+      .text-auth {
+        color: #333;
+        font-size: 14px;
+      }
+
+      .login-image {
+        width: 100%;
+      }
+    }
+
+    .signUpcontainer {
+      max-width: 100%;
+      // margin-right: 50px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    .signUpcontainer {
+      margin-right: 0;
+    }
+  }
+}

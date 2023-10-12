@@ -1,0 +1,43 @@
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  border: 1px solid #dbdbdb;
+  box-shadow: none !important;
+  border-radius: 8px !important;
+  margin-bottom: 10px;
+}
+
+.MuiAccordionSummary-root.Mui-expanded {
+  border-bottom: 1px solid #dbdbdb;
+  min-height: 46px !important;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:before {
+  display: none;
+}
+
+.MuiAccordionSummary-content.Mui-expanded {
+  margin: 12px 0px !important;
+}
+
+.MuiAccordionSummary-root {
+  min-height: 42px !important;
+}
+
+.MuiAccordionSummary-content {
+  margin: 6px 0px !important;
+}
+
+.toggleActiveList {
+  .activeList {
+    background: #f6f8fa !important;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    margin-left: 10px;
+  }
+
+  .notActiveList {
+    background: #ffffff;
+    border: 1px solid #e7e9ed;
+    border-radius: 8px;
+    margin-left: 10px;
+  }
+}

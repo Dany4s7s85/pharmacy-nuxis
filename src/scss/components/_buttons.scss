@@ -1,0 +1,335 @@
+@import "../variables";
+
+:root {
+  .MuiButton-containedSizeMedium {
+    border-radius: 6px;
+    padding: 7px 24px;
+  }
+
+  // .MuiButtonGroup-root .MuiButtonGroup-grouped {
+  //   &:not(:last-of-type), &:not(:first-of-type) {
+  //     border-radius: 6px;
+  //   }
+  // }
+
+  .MuiButton-outlined.outlined-white {
+    color: #fff;
+    border-color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    border-color: rgba(255, 255, 255, 0.3);
+    padding: 13px;
+
+    &:hover {
+      background-color: #fff;
+      color: #333;
+    }
+  }
+
+  .MuiButton-outlined.outlined-white-green {
+    border-color: $primary;
+    background-color: $alice;
+    color: $ebony-color;
+    border: 1px solid $primary;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.06);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 10px 34px;
+    white-space: nowrap;
+
+    &:hover {
+      background-color: #fff;
+      color: #333;
+    }
+  }
+
+  .MuiButton-outlined.outlined-grey {
+    border-color: #878b93;
+    background-color: #ffffff;
+    color: $ebony-color;
+    border: 1px solid #878b93;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.06);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    height: 41px;
+    border-radius: 8px;
+    padding: 10px 28px;
+    white-space: nowrap;
+
+    &:hover {
+      background-color: #fff;
+      color: #333;
+    }
+  }
+
+  .MuiButton-outlined.outlined-dark {
+    color: #000;
+    border-color: #000;
+    text-transform: capitalize;
+
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+
+  .variantDark {
+    border-color: #000;
+    color: #000;
+  }
+
+  .MuiButton-outlined.outlined-primary {
+    color: $primary;
+    border-color: $primary;
+
+    &:hover {
+      color: $primary;
+      border-color: $primary;
+    }
+  }
+
+  .MuiButton-text.outlined-text {
+    color: $primary;
+    border-color: $primary;
+    text-transform: capitalize;
+
+    &:hover {
+      color: $primary;
+      border-color: $primary;
+    }
+  }
+}
+
+.MuiButton-containedSizeLarge.containedAlpha {
+  color: $bgColor;
+  background-color: $buttonAlpha;
+  width: 100%;
+  height: 44px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 700;
+
+  &:hover {
+    background-color: $buttonAlpha;
+  }
+}
+
+.MuiButton-containedSizeLarge.containedPrimary {
+  color: $bgColor;
+  background-color: $buttonPrimary;
+  width: 100%;
+  height: 44px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+
+  &:hover {
+    background-color: $buttonPrimary;
+  }
+}
+
+.MuiButton-containedSizeLarge.containedPrimaryAuth {
+  color: $bgColor;
+  background-color: $buttonPrimary;
+  width: 100%;
+  height: 44px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 700;
+
+  &:hover {
+    background-color: $buttonPrimary;
+  }
+}
+
+.MuiButton-containedSizeLarge.containedPrimaryWhite {
+  color: $ebony-color;
+  background-color: #ffffff;
+  width: 100%;
+  height: 44px;
+  text-transform: capitalize;
+  border: 1px solid #cfd1d4;
+  border-radius: 8px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 700;
+
+  &:hover {
+    background-color: #ffffff;
+  }
+}
+
+.MuiButton-containedSizeSmall.containedPrimaryWhite {
+  color: $ebony-color;
+  background-color: #ffffff;
+  width: 100%;
+  height: 44px;
+  text-transform: capitalize;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 700;
+
+  &:hover {
+    background-color: #ffffff;
+  }
+}
+
+.MuiButton-containedSizeSmall.containedProduct {
+  color: $bgColor;
+  background-color: $buttonPrimary;
+  width: 100%;
+  height: 44px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 700;
+
+  &:hover {
+    background-color: $buttonPrimary;
+  }
+}
+
+.MuiButton-containedSizeLarge.containedQr {
+  color: $bgColor;
+  background-color: $buttonQr;
+  width: 100%;
+  height: 44px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 700;
+
+  &:hover {
+    background-color: $buttonQr;
+  }
+}
+
+.MuiButton-containedSizeMedium.containednewPrimary {
+  color: $textColor;
+  background-color: #35BD76;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+
+  &:hover {
+    background-color: #309b64;
+  }
+}
+
+.MuiButton-containedSizeMedium.containedPrimary {
+  color: $textColor;
+  background-color: $buttonPrimary;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  white-space: nowrap;
+
+  &:hover {
+    background-color: $btnHover;
+  }
+}
+
+.MuiButton-containedSizeSmall.containedPrimary {
+  color: $textColor;
+  background-color: $buttonPrimary;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 400;
+
+  &:hover {
+    background-color: $btnHover;
+  }
+}
+
+.MuiButton-containedSizeMedium.containedWhite {
+  color: #101828;
+  border-color: #fff;
+  text-transform: capitalize;
+  background-color: #fff;
+
+  &:hover {
+    background-color: #ccc;
+    color: #000;
+  }
+}
+
+.MuiButton-containedSizeMedium.containedDelete {
+  color: $textColor;
+  background-color: $danger;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.containedDefault {
+  @include themify($themes) {
+    background: themed("buttonDefault");
+    color: themed("txtColor");
+    box-shadow: 0 2px 6px 1px themed("shadowColorBlack");
+  }
+}
+
+.MuiButton-textPrimary {
+  color: $primary;
+}
+
+// contained buttons
+:root {
+  .MuiButton-contained.contained {
+    border-radius: 6px;
+    padding: 7px 24px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+
+    &:not(:last-of-type),
+    &:not(:first-of-type) {
+      border-radius: 6px;
+    }
+  }
+
+  .contained.contained-primary {
+    color: $textColor;
+    background-color: $buttonPrimary;
+
+    &:hover {
+      background-color: $btnHover;
+    }
+  }
+
+  .contained.contained-default {
+    color: $txtColorDefault;
+    background-color: $buttonDefault;
+
+    &:hover {
+      background-color: $btnHoverDefault;
+    }
+  }
+
+  .contained.contained-danger {
+    color: $textColor;
+    background-color: $danger;
+
+    &:hover {
+      background-color: $btnHoverDefault;
+    }
+  }
+}

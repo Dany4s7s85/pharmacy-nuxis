@@ -1,0 +1,377 @@
+.landingPageheader {
+  display: flex;
+  .logoText {
+    margin-left: 7px;
+    font-weight: 700;
+    font-size: 25.7758px;
+    color: #325c5d;
+  }
+}
+
+.landingPageheader1 {
+  display: none;
+  .logoText {
+    margin-left: 7px;
+    font-weight: 700;
+    font-size: 25.7758px;
+    color: #325c5d;
+  }
+}
+
+@media (min-width: 1200px) {
+  .landingPageheader {
+    display: none;
+  }
+  .landingPageheader1 {
+    display: flex;
+  }
+}
+
+.nxusLandingPageContainer {
+  margin: 0px;
+  padding: 0px !important;
+  .mainHeading {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    width: 52%;
+    margin: auto;
+    line-height: 1.2;
+    padding: 16px;
+  }
+  .mainParagraph {
+    font-size: 14px;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+  }
+
+  .dashboardImage {
+    width: 100%;
+    height: 100%;
+    padding: 0rem 6rem;
+  }
+
+  .secondSection {
+    .userDashboard {
+      border: 1px solid #efefef;
+      border-bottom: none;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+      width: 50%;
+      margin: auto;
+      padding: 20px 30px;
+    }
+    .seconCardDetail {
+      border: 1px solid #fefe;
+      border-radius: 12px;
+      padding: 4rem;
+      position: relative;
+      background: #ffffff;
+      .B2B-DetailHeading {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 1.2;
+        margin-bottom: 16px;
+      }
+      .B2B-Detail {
+        font-size: 20px;
+        line-height: 1.2;
+      }
+      .landingPageBackground {
+        background-image: url("../../assets/images/landingPageImage1.svg");
+        background-size: 60%;
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        width: 100%;
+        min-height: 100%;
+        cursor: pointer;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 4rem;
+        top: 0;
+      }
+    }
+  }
+
+  .thirdSection {
+    background: #235d5e;
+    padding: 40px 0px;
+
+    .cardInfo {
+      border: 1px solid #1d5455;
+      border-radius: 8px;
+      padding: 4rem;
+      position: relative;
+      box-shadow: 0 1px 15px 2px rgba(29, 84, 85, 86);
+      .cardHeading {
+        font-size: 22px;
+        font-weight: 500;
+        margin: auto;
+        line-height: 1.2;
+        margin-bottom: 15px;
+      }
+      .cardDetail {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 1.2;
+      }
+      .thirdCardBackground {
+        background-image: url("../../assets/images/landingPageImage1.svg");
+        background-size: 70%;
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        width: 114%;
+        min-height: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 0;
+      }
+    }
+
+    .secondCardInfo {
+      border: 1px solid #1d5455;
+      border-radius: 8px;
+      padding: 5rem 4rem;
+      position: relative;
+      box-shadow: 0 1px 15px 2px rgba(29, 84, 85, 86);
+      .cardHeading {
+        font-size: 22px;
+        font-weight: 500;
+        margin: auto;
+        line-height: 1.2;
+        margin-bottom: 15px;
+      }
+      .cardDetail {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 1.2;
+        width: 80%;
+      }
+      .thirdCardBackground {
+        background-image: url("../../assets/images/landingPageImage2.svg");
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        width: 95%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 25px;
+      }
+    }
+  }
+
+  .forthSection {
+    .forthSectionHeading {
+      font-size: 40px;
+      font-weight: 600;
+      text-align: center;
+      width: 40%;
+      margin: auto;
+      line-height: 1.2;
+      padding: 16px;
+    }
+
+    .forthSectionDetail {
+      .forthSectionDetailHeading {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.2;
+        margin-bottom: 2rem;
+        width: 70%;
+      }
+    }
+
+    .forthCardBackground {
+      background-image: url("../../assets/images/landingPageImage3.svg");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      object-fit: cover;
+      width: 60%;
+      height: 100%;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0px;
+      top: 0;
+      margin-left: auto;
+    }
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1536px) {
+  .nxusLandingPageContainer {
+    .mainHeading {
+      font-size: 36px;
+      width: 60%;
+    }
+    .mainParagraph {
+      font-size: 16px;
+      width: 40%;
+    }
+
+    .secondSection {
+      .seconCardDetail {
+        .B2B-DetailHeading {
+          font-size: 32px;
+        }
+        .B2B-Detail {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .nxusLandingPageContainer {
+    .mainHeading {
+      font-size: 32px;
+      width: 70%;
+    }
+    .mainParagraph {
+      width: 60%;
+    }
+
+    .secondSection {
+      .seconCardDetail {
+        .B2B-DetailHeading {
+          font-size: 28px;
+        }
+        .B2B-Detail {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .forthSection {
+      .forthSectionHeading {
+        font-size: 38px;
+        width: 45%;
+      }
+    }
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .nxusLandingPageContainer {
+    .mainHeading {
+      font-size: 30px;
+      width: 90%;
+    }
+    .mainParagraph {
+      width: 70%;
+    }
+
+    .secondSection {
+      .seconCardDetail {
+        .B2B-DetailHeading {
+          font-size: 24px;
+        }
+        .B2B-Detail {
+          font-size: 16px;
+        }
+        .landingPageBackground {
+          display: none;
+        }
+      }
+    }
+
+    .thirdSection {
+      .cardInfo {
+        padding: 2rem;
+      }
+      .secondCardInfo {
+        padding: 2rem;
+      }
+    }
+
+    .forthSection {
+      .forthSectionHeading {
+        font-size: 32px;
+        width: 58%;
+      }
+    }
+  }
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+  .landingPageheader {
+    .logoText {
+      font-size: 21.7758px;
+    }
+  }
+
+  .landingPageheader1 {
+    .logoText {
+      font-size: 21.7758px;
+    }
+  }
+
+  .nxusLandingPageContainer {
+    .mainHeading {
+      font-size: 22px;
+      width: 100%;
+    }
+    .mainParagraph {
+      width: 80%;
+    }
+    .dashboardImage {
+      padding: 2rem;
+    }
+
+    .secondSection {
+      .userDashboard {
+        width: 60%;
+        padding: 20px;
+      }
+      .seconCardDetail {
+        padding: 2rem;
+        .B2B-DetailHeading {
+          font-size: 20px;
+        }
+        .B2B-Detail {
+          font-size: 14px;
+        }
+        .landingPageBackground {
+          display: none;
+        }
+      }
+    }
+
+    .thirdSection {
+      .cardInfo {
+        padding: 2rem;
+      }
+      .secondCardInfo {
+        padding: 2rem;
+      }
+    }
+
+    .forthSection {
+      .forthSectionHeading {
+        font-size: 26px;
+        width: 90%;
+      }
+      .forthSectionDetail {
+        .forthSectionDetailHeading {
+          font-size: 20px;
+          margin-bottom: 2rem;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+@import "mixins/mixins";
+
+// var declaration
+$primary-color: #235d5e;
+$secondary-color: #f3ca60;
+$tertiary-color: #03ad54;
+$accent-color: #cd6832;
+$background-color: #ffffff;
+$text-color: #235d5e;
+$ebony-color: #101828;
+$grey: #e7e8ea;
+
+$primary: #235d5e;
+$bgColor: #ffffff;
+$alice: #f4f7f7;
+$tableText: #404653;
+$danger: red;
+$shadowColorBlack: rgba(0, 0, 0, 0.25);
+$shadowColorGrey: rgba(213, 213, 217, 0.25);
+$shadowColorGreyLight: rgba(195, 195, 195, 0.36);
+$disableColorBg: rgba(211, 211, 211, 0.3);
+$activeColorBg: #e0ebfe;
+$borderColor: rgba(165, 165, 165, 0.3);
+$textColor: #ffffff;
+$counterInputBg: #ffffff;
+$modalColorBg: #ffffff;
+$dividerColor: #5290ff;
+$buttonPrimary: #235d5e;
+$buttonAlpha:#03AD54;
+$buttonQr:#F79009;
+$buttonAlphaHover:#044b26;
+$buttonDefault: #ffffff;
+$txtColorDefault: #333;
+$input: #e0ebfe;
+$tableRowColorBg: #ffffff;
+$btnHover: #1c4445;
+$btnHoverDefault: #e2e2e2;
+$labelColor: #8a8a8a;
+$inputBg: #ffffff;
+
+// theme variables
+$themes: (
+  light: (
+    primary: #235D5E,
+    secondary: #ffffff,
+    bgColor: #f5f4f9,
+    txtColor: #9fa3a9,
+    txtColorGr: #fff,
+    barBg: #ffffff,
+    border: #235D5E,
+    buttonDefault: #ffffff,
+    shadowColorBlack: rgba(0, 0, 0, 0.25),
+    inputBg: #ffffff,
+    inputlabel: #535353,
+    inputlabelGr: #fff,
+    tableBorder: rgba(165, 165, 165, 0.3),
+    inputGr: #235d5e,
+  ),
+  dark: (
+    primary: #235D5E,
+    secondary: #19181b,
+    bgColor: #121212,
+    txtColor: #ffffff,
+    barBg: #161a26,
+    border: #393939,
+    buttonDefault: #000000,
+    shadowColorBlack: #222326,
+    inputBg: #222833,
+    inputlabel: #656565,
+    tableBorder: #27354e,
+  ),
+);

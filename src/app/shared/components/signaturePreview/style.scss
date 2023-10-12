@@ -1,0 +1,32 @@
+.signature-prev-container {
+  .signature-prev-image {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 33px 16px 20px 16px;
+    position: relative;
+    background-color: #fff;
+    margin-top: 10px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      max-width: 225px;
+      height: 95px;
+      margin: auto;
+      display: block;
+      object-fit: fill;
+    }
+    .prev-img-clr {
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: #d32f2f;
+      border-color: #ccc;
+      border-top: none;
+      border-right: none;
+      background-color: #fff;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+}

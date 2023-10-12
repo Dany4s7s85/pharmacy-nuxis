@@ -1,0 +1,191 @@
+.store-checkout {
+  width: 100%;
+  background-color: #235D5E;
+  display: inline-block;
+  padding: 1rem;
+  position: absolute;
+  border-radius: 20px 0 20px 0;
+  color: white;
+  max-width: 60%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cart-text {
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  color: #101828;
+}
+
+.cart-price {
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 24px !important;
+  color: #16151a;
+}
+
+.summary-heading {
+  font-style: normal !important;
+  font-weight: 500 !important;
+  color: #101828;
+}
+
+.summary-cal {
+  font-weight: 400 !important;
+  color: #101828;
+  font-style: normal !important;
+}
+
+.charges {
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  color: #282F3E !important;
+}
+
+.charges-text {
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  color: #101828 !important;
+}
+
+.shipping-box {
+  max-width: 300px;
+  flex: 0 0 300px
+}
+
+
+.chip-checkout.MuiChip-root {
+  background-color:
+    #F4F7F7;
+  padding-top:
+    45px;
+  padding-bottom:
+    45px;
+  padding-right:
+    50px;
+  padding-left:
+    0 !important;
+  position:
+    relative;
+
+}
+
+@media(max-width:765) {
+  .checkout-radio {
+    .MuiRadioGroup-root {
+      .MuiRadioGroup-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+    }
+  }
+
+
+}
+
+@media(max-width:600px) {
+  .cart-text {
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #101828;
+  }
+
+  .cart-price {
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #16151a;
+  }
+
+  .charges {
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #282F3E !important;
+  }
+
+  .charges-text {
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #101828 !important;
+  }
+
+  .image-product-text {
+    font-size: 8px;
+  }
+
+  .chip-checkout.MuiChip-root {
+    background-color:
+      #F4F7F7;
+    padding-top:
+      45px;
+    padding-bottom:
+      45px;
+    padding-right:
+      50px;
+    padding-left:
+      0 !important;
+    position:
+      relative;
+    width: 200px;
+
+  }
+}
+
+@media(max-width:475px) {
+  .cart-text {
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    color: #101828;
+  }
+
+  .cart-price {
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    color: #16151a;
+  }
+
+  .charges {
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #282F3E !important;
+  }
+
+  .charges-text {
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    color: #101828 !important;
+  }
+
+  .image-product-text {
+    font-size: 8px;
+  }
+
+  .shipping-box {
+    max-width: 200px;
+    flex: 0 0 200px
+  }
+
+  .store-checkout {
+    padding: 5px;
+  }
+
+}
+
+@media(max-width:'354px') {
+  .checkout-product {
+    margin-left: 10px;
+  }
+}

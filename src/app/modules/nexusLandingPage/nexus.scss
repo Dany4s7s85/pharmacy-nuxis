@@ -1,0 +1,393 @@
+@import "../../../scss/components/card";
+@import "../../../scss//variables";
+
+:root {
+  .landing-sidebar {
+    .MuiDrawer-paper {
+      position: relative;
+      // transform-origin: top right;
+    }
+  }
+
+  .product-view.MuiPaper-root {
+    width: 100%;
+  }
+
+  .MuiTabs-flexContainer {
+    justify-content: flex-end;
+  }
+
+  .MuiTabPanel-root {
+    padding: 15px;
+  }
+}
+
+.Media {
+  height: 230px;
+}
+
+.carousel-container {
+  .MuiPaper-root {
+    background-color: transparent;
+    box-shadow: none;
+  }
+}
+
+#product-categories {
+  .MuiCard-root {
+    background-color: #7366ff;
+    color: #ffffff;
+  }
+}
+
+.swiper-button-next:after {
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+  border-radius: 17px;
+  background-color: #fff;
+  font-size: 15px !important;
+  font-weight: bold !important;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-prev:after {
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+  border-radius: 17px;
+  background-color: #fff;
+  font-size: 15px !important;
+  font-weight: bold !important;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pharmacyLanding {
+  background-image: url("../../assets/images/pharmacy.jpg");
+}
+
+.Title {
+  color: #5e50f9;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 27px;
+}
+
+.price {
+  font-weight: 500;
+  font-size: 42px;
+  color: #000000;
+}
+
+.category-card.MuiCard-root {
+  border-radius: 150px !important;
+  background: $alice;
+  height: 251px;
+  width: 251px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.discount {
+  display: inline-block;
+  width: 45px;
+  height: 18px;
+  border-radius: 4px;
+  background-color: #38cdca;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.discount-heading {
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+  text-align: center;
+}
+
+.feature {
+  display: inline-block;
+  width: 45px;
+  height: 18px;
+  border-radius: 4px;
+  background-color: #7366ff;
+  padding-left: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.feature-heading {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.circle:before {
+  left: -5px;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #646464;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  display: inline-block;
+}
+
+.links-heading.MuiListSubheader-root {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  padding-left: 0;
+}
+
+.footer-nav-menu {
+  .MuiListItemText-root {
+    .MuiTypography-root {
+      font-weight: 500;
+      font-size: 14px;
+      color: #646464;
+    }
+  }
+}
+
+.swiper {
+  .swiper-slide {
+    .bg-slide {
+      object-fit: cover;
+      height: 550px;
+      width: 100%;
+    }
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.packs:before {
+  width: 31px;
+  height: 6px;
+  border-radius: 20px;
+  background-color: #7366ff;
+  position: absolute;
+  left: 155px;
+  top: 343px;
+}
+
+.packs {
+  font-weight: 400;
+  font-size: 14px;
+  color: #5e50f9;
+  display: inline-block;
+}
+
+.latestProduct {
+  font-weight: 400;
+  font-size: 20px;
+  color: #333333;
+}
+
+.carousel-img-container {
+  img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+  }
+}
+
+.carousel-img-container-category {
+  img {
+    height: 175px;
+    width: 175px;
+    padding-top: 45px;
+    object-fit: cover;
+  }
+}
+
+.card-header-category {
+  .MuiCardHeader-content {
+    width: 100%;
+  }
+
+  span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+.cusProductName {
+  background: #f3f5f7;
+  text-align: center;
+  border-radius: 4px;
+  width: 100px;
+  padding: 10px;
+  align-self: start;
+
+  p {
+    font-size: 10px;
+    font-weight: 500;
+    font-family: cursive !important;
+  }
+}
+
+.cusCardProductName {
+  text-align: center;
+  min-height: 150px;
+  max-height: 150px;
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+.category-text {
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  color: #101828;
+  text-align: center;
+}
+
+.main-text {
+  font-weight: 500 !important;
+  font-size: 40px !important;
+  color: #000000;
+}
+
+.upto-text {
+  font-weight: 500 !important;
+  font-size: 36px !important;
+  color: #000000;
+}
+
+.latest-product-text {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: $ebony-color !important;
+  line-height: 20px !important;
+}
+
+.latest-product-subtext {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  color: #282f3e !important;
+  white-space: nowrap;
+}
+
+.price {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 16px !important;
+  color: #1c1c1c;
+}
+
+.counter-box {
+  box-sizing: border-box;
+  width: 56px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+
+.main-heading-landing-page {
+  color: "#000000" !important;
+  font-weight: 700 !important;
+  font-size: 36px !important;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+.explore {
+  text-align: center;
+}
+
+@media screen and (max-width: 1050px) {
+  .main-text {
+    font-size: 54px !important;
+  }
+
+  .upto-text {
+    font-size: 28px !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main-text {
+    font-size: 44px !important;
+    text-align: center;
+  }
+
+  .upto-text {
+    font-size: 24px !important;
+  }
+
+  .banner-img {
+    width: 300px;
+  }
+
+  .main-heading-landing-page {
+    font-size: 25px !important;
+  }
+
+  .category-text {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-heading-landing-page {
+    font-size: 20px !important;
+  }
+
+  .category-text {
+    font-size: 12px !important;
+  }
+
+  .cusProductName {
+    p {
+      font-size: 8px;
+    }
+  }
+
+  .main-text {
+    font-size: 35px !important;
+    text-align: center;
+  }
+
+  .upto-text {
+    font-size: 20px !important;
+  }
+
+  .banner-img {
+    width: 200px;
+  }
+}

@@ -1,0 +1,393 @@
+@import "../variables";
+
+.newsletter-input {
+  .MuiOutlinedInput-root {
+    height: 40px !important;
+
+    input {
+      padding: 9px !important;
+    }
+  }
+}
+
+.MuiOutlinedInput-root .newsletter-input {
+  @include themify($themes) {
+    background-color: themed("inputBg");
+  }
+
+  &:before {
+    border-color: $dividerColor;
+  }
+
+  &:hover,
+  &:active {
+    @include themify($themes) {
+      background-color: themed("inputBg");
+    }
+
+    &:not(.Mui-disabled):before {
+      border-color: $primary;
+    }
+  }
+
+  .MuiOutlinedInput-input {
+    @include themify($themes) {
+      color: themed("txtColor");
+    }
+  }
+}
+
+.MuiFormLabel-root {
+  @include themify($themes) {
+    color: themed("inputlabel");
+  }
+}
+
+.MuiFormLabel-root[data-shrink="true"] {
+  color: $ebony-color;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.MuiFormControl-root .css-o943dk-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: $primary;
+}
+
+.MuiTextField-root.counter {
+  width: 120px;
+  background: #ffffff;
+  /* Light/Grayscale/Border */
+
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+
+  .MuiInputBase-root {
+    .MuiButtonBase-root {
+      padding: 0;
+      color: $primary;
+    }
+
+    #outlined-basic {
+      height: 3px;
+      text-align: center;
+    }
+
+    .MuiOutlinedInput-notchedOutline {
+      border: none;
+    }
+  }
+}
+
+.MuiTextField-root.cart-counter {
+  width: 80px;
+  height: 34px;
+  color: $ebony-color;
+  background: #ffffff;
+  /* Light/Grayscale/Border */
+
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+
+  .MuiInputBase-root {
+    .MuiButtonBase-root {
+      padding: 0;
+      color: $primary;
+    }
+
+    #outlined-basic {
+      height: 3px;
+      text-align: center;
+    }
+
+    .MuiOutlinedInput-notchedOutline {
+      border: none;
+    }
+
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.MuiTextField-root.counter-new {
+  width: 50px;
+  height: 40px;
+  background: #ffffff;
+  /* Light/Grayscale/Border */
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+
+  .MuiInputBase-root {
+    .MuiButtonBase-root {
+      padding: 0;
+      color: $primary;
+    }
+
+    #outlined-basic {
+      height: 3px;
+      text-align: center;
+    }
+
+    .MuiOutlinedInput-notchedOutline {
+      border: none;
+    }
+
+    .MuiInputBase-input.MuiOutlinedInput-input {
+      font-weight: 500;
+      font-size: 16px;
+      padding-top: 18px;
+      padding-right: 22px;
+      color: #585d69;
+      font-family: "Marlin Geo";
+    }
+  }
+
+  .MuiInputBase-root.MuiOutlinedInput-root {
+    flex-direction: column-reverse !important;
+  }
+}
+
+.default-form-field {
+  .MuiInputBase-root {
+    background-color: #e9ecef;
+
+    &:hover {
+      background-color: #e9ecef;
+    }
+  }
+
+  .MuiInputBase-root.Mui-focused {
+    background-color: #e9ecef;
+  }
+}
+
+.MuiTextField-root.newfield {
+  width: 100%;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+
+  .MuiInputBase-root {
+    .MuiButtonBase-root {
+      padding: 0;
+      color: $primary;
+    }
+
+    #outlined-basic {
+      height: 3px;
+      text-align: center;
+    }
+
+    .MuiOutlinedInput-notchedOutline {
+      border: none;
+    }
+
+    .MuiInputBase-input.MuiOutlinedInput-input {
+      font-weight: 400;
+      color: #70747e;
+      font-size: 16px;
+      padding: 12.5px 14px;
+      font-family: "Marlin Geo";
+    }
+  }
+}
+
+.MuiTextField-root.field-input {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+
+  .MuiInputBase-root {
+    .MuiButtonBase-root {
+      padding: 0;
+      color: $primary;
+    }
+
+    #outlined-basic {
+      height: 3px;
+      text-align: center;
+    }
+
+    .MuiOutlinedInput-notchedOutline {
+      border: none;
+    }
+
+    .MuiInputBase-input.MuiOutlinedInput-input {
+      font-weight: 400;
+      color: #70747e;
+      font-size: 16px;
+      padding: 10px 14px;
+      font-family: "Marlin Geo";
+    }
+  }
+}
+
+.MuiTextField-root.newfield-modal {
+  width: 396px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+
+  .MuiInputBase-root {
+    .MuiButtonBase-root {
+      padding: 0;
+      color: $primary;
+    }
+
+    #outlined-basic {
+      height: 3px;
+      text-align: center;
+    }
+
+    .MuiOutlinedInput-notchedOutline {
+      border: none;
+    }
+
+    .MuiInputBase-input.MuiOutlinedInput-input {
+      font-weight: 400;
+      color: #70747e;
+      font-size: 16px;
+      padding: 12.5px 14px;
+      font-family: "Marlin Geo";
+    }
+  }
+}
+
+.MuiTextField-root.authfield {
+  height: 45px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+
+  .MuiInputBase-root {
+    .MuiButtonBase-root {
+      padding: 0;
+      color: $primary;
+    }
+
+    .MuiOutlinedInput-notchedOutline {
+      border: none;
+    }
+
+    .MuiInputBase-input.MuiOutlinedInput-input {
+      font-weight: 500;
+      height: 11px;
+      color: #9fa3a9;
+      font-size: 16px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      padding-left: 14px;
+      font-family: "Marlin Geo";
+    }
+  }
+}
+
+.MuiTextField-root.authfieldsignup {
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+
+  .MuiInputBase-root {
+    .MuiButtonBase-root {
+      padding: 0;
+      color: $primary;
+    }
+
+    #outlined-basic {
+      height: 3px;
+      text-align: center;
+    }
+
+    .MuiOutlinedInput-notchedOutline {
+      border: none;
+    }
+
+    .MuiInputBase-input.MuiOutlinedInput-input {
+      font-weight: 400;
+      height: 11px;
+      color: #70747e !important;
+      font-size: 16px;
+      padding-top: 20px;
+      padding-bottom: 16px;
+      padding-left: 14px;
+      font-family: "Marlin Geo";
+    }
+  }
+}
+
+.MuiInputBase-input.MuiOutlinedInput-input::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  color: #9fa3a9;
+}
+
+.datePickerSelectA {
+  .MuiOutlinedInput-root {
+    width: 100%;
+    height: 45px;
+    border: 1px solid #d0d5dd;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+  }
+}
+
+.membersSelect {
+  width: 100%;
+  height: 44px !important;
+  background: #ffffff;
+  // border: 1px solid #D0D5DD;
+  // box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05) !important;
+  border-radius: 8px !important;
+
+  .MuiSelect-icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    padding-right: 24px;
+    background-image: url("../../app/assets/images/arrowDown.svg");
+  }
+}
+
+.membersSelect:hover fieldset {
+  border: 1px solid #e7e8ea !important;
+  background: transparent;
+  border-radius: 8px !important;
+}
+
+@media(max-width:540px) {
+  .MuiTextField-root.counter {
+    width: 100px;
+    background: #ffffff;
+    /* Light/Grayscale/Border */
+
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+
+    .MuiInputBase-root {
+      .MuiButtonBase-root {
+        padding: 0;
+        color: $primary;
+      }
+
+      #outlined-basic {
+        height: 3px;
+        text-align: center;
+      }
+
+      .MuiOutlinedInput-notchedOutline {
+        border: none;
+      }
+    }
+  }
+
+}

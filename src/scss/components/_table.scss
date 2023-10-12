@@ -1,0 +1,122 @@
+@import "../variables";
+
+.MuiDataGrid-root.table-header {
+  border: none;
+
+  @include themify($themes) {
+    color: themed("txtColor");
+  }
+
+  .MuiDataGrid-columnHeaders {
+    background-color: $alice;
+    border-radius: 10px;
+  }
+
+  .MuiDataGrid-columnHeadersInner {
+
+    .MuiDataGrid-columnSeparator {
+      display: none;
+    }
+  }
+
+  .MuiDataGrid-columnHeaderTitle {
+    font-weight: 500;
+    font-size: 12px;
+    color: #404653;
+  }
+
+  :root {
+    .MuiStack-root {
+      align-items: flex-end;
+      margin-top: 15px;
+    }
+  }
+}
+
+.rowText {
+  font-weight: 400;
+  font-size: 14px !important;
+  color: $ebony-color;
+  font-style: normal;
+  text-align: center;
+}
+
+.tableContainer {
+  background-color: transparent;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+  .MuiTableHead-root {
+    width: 1100px;
+    height: 44px;
+    background-color: $alice;
+  }
+
+  .tableBodyCell {
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: $ebony-color;
+    font-style: normal;
+
+    .marginZero {
+      margin-top: 0px;
+    }
+
+    .margin32 {
+      margin-top: 32px;
+    }
+
+    .cusBtn {
+      .MuiButton-startIcon {
+        margin: 0px;
+      }
+    }
+  }
+}
+
+.order-text-heading {
+  font-weight: 400;
+  font-size: 14px;
+  color: $ebony-color;
+  font-style: normal;
+}
+
+.card-field {
+  font-size: 14px !important;
+  color: black;
+}
+
+
+.card-field-12 {
+  font-size: 12px !important;
+  color: var(--gray-600, #585D69);
+}
+
+.card-field-14 {
+  font-size: 14px !important;
+  color: var(--gray-900, #101828);
+}
+
+.card-table {
+  display: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.table-card {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 750px) {
+  .card-table {
+    display: block;
+  }
+
+  .table-card {
+    display: none;
+  }
+}

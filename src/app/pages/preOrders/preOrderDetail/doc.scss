@@ -1,0 +1,110 @@
+// .doc-container {
+//   height: 60vh;
+//   width: 100%;
+//   overflow: auto;
+//   // border: 1px solid #000;
+//   .doc-wrapper {
+//     padding: 2rem;
+//     width: 100%;
+//     background-color: #fff;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//     grid-gap: 3rem;
+//     min-height: 1020px;
+//     ins {
+//       font-family: "Marlin Geo" !important;
+//     }
+//     .doc-h6 {
+//       font-style: normal !important;
+//       font-weight: 400 !important;
+//       font-size: 12px !important;
+//       color: #101828 !important;
+//     }
+//     .doc-h4 {
+//       font-family: 'Marlin Geo';
+//       font-style: normal !important;
+//       font-weight: 500 !important;
+//       font-size: 20px !important;
+//       color: #101828;
+//     }
+//     .doc-h5 {
+//       font-family: 'Marlin Geo';
+//       font-style: normal !important;
+//       font-weight: 400 !important;
+//       font-size: 14px !important;
+//       color: #101828;
+//     }
+//     .doc-header {
+//       text-align: center;
+//       .doc-header-divider {
+//         border: 1px solid #E7E8EA;
+//       }
+//     }
+
+//     .doc-body {
+//       // .doc-table {
+//       //   width: 100%;
+//       //   text-align: center;
+//       //   // margin: 2rem 0;
+//       //   tbody:after {
+//       //     line-height: 1em;
+//       //     content: "_";
+//       //     color: white;
+//       //     display: block;
+//       //   }
+//       //   thead::after {
+//       //     line-height: 1em;
+//       //     content: "_";
+//       //     color: white;
+//       //     display: block;
+//       //   }
+
+//       //   td {
+//       //     font-family: "Times New Roman", Times, serif !important;
+//       //     border: 1px solid #000;
+//       //     font-size: 15px;
+//       //     padding: 0.4rem 1rem;
+//       //     input[type="number"] {
+//       //       max-width: 70px;
+//       //     }
+//       //     button {
+//       //       svg {
+//       //         color: black;
+//       //       }
+//       //     }
+//       //   }
+//       //   th {
+//       //     font-family: "Times New Roman", Times, serif !important;
+//       //     border: 1px solid #000;
+//       //     font-size: 18px;
+//       //     padding: 0.4rem 1rem;
+//       //   }
+//       // }
+//       .doc-order-summary {
+//         width: 250px;
+//         padding: 1rem;
+//         border-radius: 8px;
+//         margin-top: 2rem;
+//         margin-left: auto;
+//         border: 1px solid #ccc;
+//       }
+//     }
+//     .doc-footer {
+//       .doc-blanks {
+//         border-color: #212529;
+//         border-width: 2px;
+//         width: 80px;
+//         &:last-child {
+//           width: 230px;
+//         }
+//       }
+//       .signatures-img {
+//         object-fit: fill;
+//         height: 75px;
+//         width: 140px;
+//       }
+//     }
+//   }
+
+// }
